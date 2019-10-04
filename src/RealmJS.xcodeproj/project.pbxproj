@@ -11,17 +11,11 @@
 		02022A5A1DA476CD000F0C4F /* weak_realm_notifier.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 02022A4A1DA475A9000F0C4F /* weak_realm_notifier.cpp */; };
 		02022A5B1DA476CD000F0C4F /* placeholder.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 02022A4C1DA475C0000F0C4F /* placeholder.cpp */; };
 		022BF1021E7266DF00F382F1 /* binding_callback_thread_observer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 022BF0FF1E7266C800F382F1 /* binding_callback_thread_observer.cpp */; };
-		02409DC21BCF11D6005F3B3E /* RealmJSCoreTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 02409DC11BCF11D6005F3B3E /* RealmJSCoreTests.m */; };
-		02414B881CE68CA200A8669F /* dates-v5.realm in Resources */ = {isa = PBXBuildFile; fileRef = 02414B871CE68CA200A8669F /* dates-v5.realm */; };
 		02414BA51CE6ABCF00A8669F /* collection_change_builder.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 02414B991CE6AAEF00A8669F /* collection_change_builder.cpp */; };
 		02414BA61CE6ABCF00A8669F /* collection_notifier.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 02414B9B1CE6AAEF00A8669F /* collection_notifier.cpp */; };
 		02414BA71CE6ABCF00A8669F /* list_notifier.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 02414B9D1CE6AAEF00A8669F /* list_notifier.cpp */; };
 		02414BA81CE6ABCF00A8669F /* results_notifier.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 02414B9F1CE6AAEF00A8669F /* results_notifier.cpp */; };
 		02414BA91CE6ABCF00A8669F /* collection_notifications.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 02414B961CE6AADD00A8669F /* collection_notifications.cpp */; };
-		0270BC821B7D020100010E03 /* RealmJSTests.mm in Sources */ = {isa = PBXBuildFile; fileRef = 0270BC7B1B7D020100010E03 /* RealmJSTests.mm */; };
-		027A23131CD3E379000543AE /* libRealmJS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F63FF2B11C1241E500B3B8E0 /* libRealmJS.a */; };
-		02D041F71CE11159000E4250 /* dates-v3.realm in Resources */ = {isa = PBXBuildFile; fileRef = 02D041F61CE11159000E4250 /* dates-v3.realm */; };
-		02D8D1F71B601984006DB49D /* JavaScriptCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 02B58CCD1AE99D4D009B348C /* JavaScriptCore.framework */; };
 		02E315C91DB80DDD00555337 /* sync_manager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 02E315C31DB80DDD00555337 /* sync_manager.cpp */; };
 		02E315CA1DB80DDD00555337 /* sync_session.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 02E315C51DB80DDD00555337 /* sync_session.cpp */; };
 		02E315CB1DB80DDD00555337 /* sync_user.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 02E315C71DB80DDD00555337 /* sync_user.cpp */; };
@@ -47,11 +41,9 @@
 		504CF8611EBCAE3600A9A4B6 /* sync_metadata.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 504CF85C1EBCAE3600A9A4B6 /* sync_metadata.cpp */; };
 		50C671001E1D2D31003CB63C /* thread_safe_reference.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5D02C7791E1C83650048C13E /* thread_safe_reference.cpp */; };
 		5D1BF0571EF1DB4800B7DC87 /* jsc_value.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5D1BF0561EF1DB4800B7DC87 /* jsc_value.cpp */; };
-		5D25F5A11D6284FD00EBBB30 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = F63FF3301C16434400B3B8E0 /* libz.tbd */; };
 		5D97DC4E1F7DAB1400B856A4 /* sync_config.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 426FCDFF1F7DA2F9005565DC /* sync_config.cpp */; };
 		832C1D2F229D3035001A20C1 /* async_open_task.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 832C1D2E229D3035001A20C1 /* async_open_task.cpp */; };
 		8507156E1E2CFCD000E548DB /* object_notifier.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8507156B1E2CFC0100E548DB /* object_notifier.cpp */; };
-		F61378791C18EAC5008BFC51 /* js in Resources */ = {isa = PBXBuildFile; fileRef = F61378781C18EAAC008BFC51 /* js */; };
 		F63FF2C61C12469E00B3B8E0 /* jsc_init.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 029048011C0428DF00ABDED4 /* jsc_init.cpp */; };
 		F63FF2C91C12469E00B3B8E0 /* js_realm.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 029048071C0428DF00ABDED4 /* js_realm.cpp */; };
 		F63FF2CD1C12469E00B3B8E0 /* rpc.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0290480F1C0428DF00ABDED4 /* rpc.cpp */; };
@@ -70,8 +62,6 @@
 		F63FF3251C1642BB00B3B8E0 /* GCDWebServerErrorResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = F63FF3161C1642BB00B3B8E0 /* GCDWebServerErrorResponse.m */; };
 		F63FF3261C1642BB00B3B8E0 /* GCDWebServerFileResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = F63FF3181C1642BB00B3B8E0 /* GCDWebServerFileResponse.m */; };
 		F63FF3271C1642BB00B3B8E0 /* GCDWebServerStreamedResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = F63FF31A1C1642BB00B3B8E0 /* GCDWebServerStreamedResponse.m */; };
-		F68A278C1BC2722A0063D40A /* RJSModuleLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = F68A278B1BC2722A0063D40A /* RJSModuleLoader.m */; };
-		F6BCCFE21C8380A400FE31AE /* lib in Resources */ = {isa = PBXBuildFile; fileRef = F6BCCFDF1C83809A00FE31AE /* lib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -133,7 +123,6 @@
 		029048381C042A8F00ABDED4 /* platform.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = platform.mm; sourceTree = "<group>"; };
 		0290934A1CEFA9170009769E /* js_observable.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = js_observable.hpp; sourceTree = "<group>"; };
 		02A3C7A41BC4341500B1A7BE /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
-		02B58CBC1AE99CEC009B348C /* RealmJSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RealmJSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		02B58CCD1AE99D4D009B348C /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		02D041F61CE11159000E4250 /* dates-v3.realm */ = {isa = PBXFileReference; lastKnownFileType = file; path = "dates-v3.realm"; sourceTree = "<group>"; };
 		02E315C21DB80DDD00555337 /* sync_config.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = sync_config.hpp; path = src/sync/sync_config.hpp; sourceTree = "<group>"; };
@@ -282,16 +271,6 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		02B58CB91AE99CEC009B348C /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				02D8D1F71B601984006DB49D /* JavaScriptCore.framework in Frameworks */,
-				027A23131CD3E379000543AE /* libRealmJS.a in Frameworks */,
-				5D25F5A11D6284FD00EBBB30 /* libz.tbd in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		F63FF2ED1C16405C00B3B8E0 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -402,7 +381,6 @@
 			children = (
 				F63FF2F01C16405C00B3B8E0 /* libGCDWebServers.a */,
 				F63FF2B11C1241E500B3B8E0 /* libRealmJS.a */,
-				02B58CBC1AE99CEC009B348C /* RealmJSTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -721,24 +699,6 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		02B58CBB1AE99CEC009B348C /* RealmJSTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 02B58CCA1AE99CEC009B348C /* Build configuration list for PBXNativeTarget "RealmJSTests" */;
-			buildPhases = (
-				02B58CB81AE99CEC009B348C /* Sources */,
-				02B58CB91AE99CEC009B348C /* Frameworks */,
-				02B58CBA1AE99CEC009B348C /* Resources */,
-				02879D8D1DC29F2000777A5D /* Install Node Modules */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = RealmJSTests;
-			productName = RealmJSTests;
-			productReference = 02B58CBC1AE99CEC009B348C /* RealmJSTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 		F63FF2B01C1241E500B3B8E0 /* RealmJS */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = F63FF2C41C1241E500B3B8E0 /* Build configuration list for PBXNativeTarget "RealmJS" */;
@@ -781,9 +741,6 @@
 				LastUpgradeCheck = 1010;
 				ORGANIZATIONNAME = Realm;
 				TargetAttributes = {
-					02B58CBB1AE99CEC009B348C = {
-						CreatedOnToolsVersion = 6.3.1;
-					};
 					F63FF2B01C1241E500B3B8E0 = {
 						CreatedOnToolsVersion = 7.1.1;
 					};
@@ -807,40 +764,11 @@
 			targets = (
 				F63FF2EF1C16405C00B3B8E0 /* GCDWebServers */,
 				F63FF2B01C1241E500B3B8E0 /* RealmJS */,
-				02B58CBB1AE99CEC009B348C /* RealmJSTests */,
 			);
 		};
 /* End PBXProject section */
 
-/* Begin PBXResourcesBuildPhase section */
-		02B58CBA1AE99CEC009B348C /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				02D041F71CE11159000E4250 /* dates-v3.realm in Resources */,
-				02414B881CE68CA200A8669F /* dates-v5.realm in Resources */,
-				F61378791C18EAC5008BFC51 /* js in Resources */,
-				F6BCCFE21C8380A400FE31AE /* lib in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXResourcesBuildPhase section */
-
 /* Begin PBXShellScriptBuildPhase section */
-		02879D8D1DC29F2000777A5D /* Install Node Modules */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Install Node Modules";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "cd \"$TARGET_BUILD_DIR/$CONTENTS_FOLDER_PATH\"\nyarn add --production --ignore-scripts react-native-fs\n";
-		};
 		F63FF2C51C12462600B3B8E0 /* Download Core */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -858,16 +786,6 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		02B58CB81AE99CEC009B348C /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				02409DC21BCF11D6005F3B3E /* RealmJSCoreTests.m in Sources */,
-				0270BC821B7D020100010E03 /* RealmJSTests.mm in Sources */,
-				F68A278C1BC2722A0063D40A /* RJSModuleLoader.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		F63FF2AD1C1241E500B3B8E0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -1081,38 +999,6 @@
 			};
 			name = Release;
 		};
-		02B58CCB1AE99CEC009B348C /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				INFOPLIST_FILE = ../tests/ios/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				OTHER_CPLUSPLUSFLAGS = (
-					"$(inherited)",
-					"-isystem",
-					../core/include,
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "io.realm.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Debug;
-		};
-		02B58CCC1AE99CEC009B348C /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				INFOPLIST_FILE = ../tests/ios/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				OTHER_CPLUSPLUSFLAGS = (
-					"$(inherited)",
-					"-isystem",
-					../core/include,
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "io.realm.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Release;
-		};
 		F63FF2B71C1241E500B3B8E0 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -1209,15 +1095,6 @@
 			buildConfigurations = (
 				02B58CC51AE99CEC009B348C /* Debug */,
 				02B58CC61AE99CEC009B348C /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		02B58CCA1AE99CEC009B348C /* Build configuration list for PBXNativeTarget "RealmJSTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				02B58CCB1AE99CEC009B348C /* Debug */,
-				02B58CCC1AE99CEC009B348C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
